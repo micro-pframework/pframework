@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+require 'vendor/autoload.php';
+
+(new \pframework\Application())
+    ->setConfigPath('./config')
+    ->bootstrap()
+    ->get(\Symfony\Component\Console\Application::class)
+    ->run();
