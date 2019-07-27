@@ -410,3 +410,4 @@ composer.lock
 # Recommended template: PHP.gitignore
 
 /wpcs/*
+.idea

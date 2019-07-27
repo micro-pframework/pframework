@@ -2,7 +2,7 @@
 
 ## 功能
 
-1. [x] 使用symfony的console组建启动swoole的serverr
+1. [x] 使用symfony的console组建启动swoole的server
 2. [x] 使用swoole创建http server
 3. [x] 使用symfofny的event组件传递http事件
 6. [x] 参考laravel的ServiceProvider特性设计组建注册
@@ -12,6 +12,7 @@
 8. [ ] 使用hash算法进行db组建设计，支持分库分表
 9. [ ] 多个包使用composer进行包管理
 10. [ ] psr有规范的组件严格遵守规范
+10. [ ] 分库分表
 
 
 ## 测试
